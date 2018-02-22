@@ -1,0 +1,467 @@
+body{
+    margin:0 170px;
+    width: 1000px;
+
+}
+.background_heading {
+    height: 450px;
+    background-image: url("cuba/cuba_1.jpg");
+    background-repeat: no-repeat;
+    background-size:90% 100%;
+    position:relative;
+}
+
+.main_heading{
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    margin:0;
+    border: solid 2px #ecb84c;
+    width:850px;
+    height:400px;
+
+}
+.CubaTitle{
+    margin:0;
+    padding-top:150px;
+    padding-left:270px;
+    font-size:100px;
+    color:white;
+    font-family: Georgia;
+    font-weight: bold;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+.phrase{
+    margin:0;
+    color:white;
+    left:280px;
+    top:415px;
+    text-align:center;
+    z-index:0;
+    position:relative;
+    width:300px;
+    height:30px;
+    background-size: 100% 100%;
+    background-position:0 0;
+    background-image: url("cuba/2.jpg")
+}
+.MainMenu {
+    width:700px;
+    margin-top:0;
+    list-style-type: none;
+    padding-left:200px;
+
+    padding-top: 0;
+    padding-bottom:0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid #d0d4d8;
+}
+
+.MainMenu>li {
+    margin:0;
+    padding:0;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #909090;
+    font-size:14px;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+
+li a.active {
+    border-bottom: solid #ecb84c 5px;
+    color:#4e5665;
+}
+.TextTitle{
+    font-size:20px;
+    font-weight: normal;
+    text-align: center;
+    padding-right:150px;
+    padding-top:30px;
+    color:#4e5665;
+}
+.firstP{
+    text-align: left;
+    padding-right:180px;
+    padding-left:60px;
+    padding-top:10px;
+    color:#505050;
+    font-size:14px;
+}
+.ReadMore{
+    color:#ecb84c;
+    text-decoration: none;
+}
+.statistics{
+    padding-top:15px;
+    text-align: center;
+    padding-right:100px;
+}
+.statistics .item{
+    width: 125px;
+    margin: 0 10px;
+    display: inline-block;
+}
+.statistics .title{
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color:#909090;
+}
+.statistics .count{
+    padding-bottom:2px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color:#4e5665;
+
+}
+
+.statistics .image{
+    height: 70px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding-bottom:15px;
+
+}
+.statistics .image-1 {
+    background-image: url("cuba/picture1.png");
+}
+.statistics .image-2 {
+    background-image: url("cuba/picture2.png");
+}
+.statistics .image-3 {
+    background-image: url("cuba/picture3.png");
+}
+.statistics .image-4 {
+    background-image: url("cuba/picture4.png");
+}
+.wrapper{
+    border-bottom:2px solid #d0d4d8;
+    padding-top:20px;
+    padding-bottom:20px;
+    width: 900px;
+}
+
+
+.AdvTitle{
+    font-size:18px;
+    text-decoration:none;
+    font-weight: normal;
+    color:#4e5665;
+    text-align:left;
+    padding-left:25px;
+    padding-top:25px;
+    padding-bottom: 10px;
+    margin:0;
+
+
+}
+.AdvContent{
+    margin:0;
+    text-align: left;
+    padding-left:25px;
+    padding-bottom:25px;
+    padding-top:0;
+    padding-right:25px;
+    color:#505050;
+    font-size:14px;
+
+}
+.corner{
+    position: relative;
+}
+.top, .bottom {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.top {
+    margin-top:10px;
+    top: 0;
+    border-top: 2px solid #ecb84c;;
+}
+
+.bottom {
+    margin-bottom:10px;
+    bottom: 0;
+    border-bottom: 2px solid #ecb84c;;
+}
+
+.left {
+    margin-left:10px;
+    left: 0;
+    border-left: 2px solid #ecb84c;;
+}
+
+.right {
+    margin-right:10px;
+    right: 0;
+    border-right: 2px solid #ecb84c;;
+}
+.adv{
+    position:relative;
+}
+
+.AdvImage{
+    background-repeat:no-repeat;
+    position:absolute;
+    width: 481px;
+    height: 316px;
+    z-index: -1;
+}
+.HistoricalImage{
+    background-image: url("cuba/second_picture2.png");
+    right: 180px;
+    top:35px;
+}
+.AstonishingImage{
+    background-image: url("cuba/forth_picture.png");
+    left:60px;
+    top:420px;
+}
+.Adv{
+    height: 180px;
+    width: 360px;
+    background-color: white;
+    box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);
+    position:absolute;
+}
+.HistoricalHeritage {
+    top:100px;
+    left:60px;
+}
+.AstonishingBeaches{
+    top:480px;
+    right:190px;
+}
+.AfterAbsolute{
+    position:relative;
+    top:740px;
+}
+.point{
+    background: url("cuba/point.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    top:725px;
+    left:360px;
+    position: relative;
+
+}
+.pointText{
+    top:695px;
+    left:380px;
+    position: relative;
+    color:#ecb84c;
+    font-size: 14px;
+
+}
+.Cadillac{
+    background: url("cuba/cadillac12.jpg") no-repeat;
+    width: 800px;
+    height: 300px;
+    top:750px;
+    position: relative;
+    left:50px;
+    z-index: 0;
+
+}
+.GeneralPoint{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+.point1{
+    top:140px;
+    left:100px;
+}
+.point2{
+    top:100px;
+    left:400px;
+}
+.point3{
+    top:0;
+    left:550px;
+}
+.point4{
+    top:90px;
+    left:600px;
+}
+.UnderCadillac{
+    position:relative;
+    top:770px;
+}
+.SecondWrapper{
+    position:relative;
+    top:800px;
+    border-bottom:2px solid #d0d4d8;
+    width: 900px;
+}
+.PhotoText{
+    position:relative;
+    top:810px;
+}
+.SmallWrapper{
+    border-bottom:2px solid #d0d4d8;
+    position: relative;
+    top: 830px;
+    width: 200px;
+    left:325px;
+}
+.gallery{
+    position: relative;
+
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.picture1{
+    left:-20px;
+    top:940px;
+    position: absolute;
+    width: 320px;
+    /*480 - 160*/
+    height: 255px;
+    /*315 -60*/
+    z-index:0;
+}
+.picture2{
+    top:910px;
+    left:90px;
+    position: absolute;
+    width: 360px;
+    height: 280px;
+    z-index:0.5;
+}
+.picture3{
+    top:885px;
+    left:195px;
+    position: absolute;
+    height: 330px;
+    /*640*/
+    width: 450px;
+    z-index:1;
+}
+.picture4 {
+    position: absolute;
+    top: 910px;
+    right:250px;
+    height: 280px;
+    width: 360px;
+    z-index: 0.5;
+}
+.picture5{
+    position: absolute;
+    top: 940px;
+    right:140px;
+    height: 255px;
+    width: 320px;
+    z-index: -1;
+}
+footer{
+    border-top:2px solid #d0d4d8;
+    top:1250px;
+    position:relative;
+    width:850px;
+    height:230px;
+    background-color:#f8f8f8;
+}
+.TAgency{
+    /*padding-left:60px;*/
+    /*padding-top:30px;*/
+    width:100px;
+}
+.HorizontalList {
+    list-style-type: none;
+    overflow: hidden;
+    padding-top:20px;
+    /*padding-left:200px;*/
+
+}
+.HorizontalList>ul{
+    float:left;
+    padding-left:50px;
+    color:#4e5665;
+    font-size:10px;
+    list-style-type: none;
+}
+.HorizontalList>ul:first-child{
+    padding-left:0;
+}
+.HorizontalList>ul>li:first-child{
+    font-size:14px;
+    padding-bottom:10px;
+}
+.icon{
+    height:20px;
+    width:20px;
+}
+.HorizontalList>ul>li{
+    padding-top:5px;
+}
+.comment{
+    text-align:center;
+    font-size:10px;
+}
+
+.languagepicker {
+    background-color: #FFF;
+    display: inline-block;
+    padding: 0;
+    height: 30px;
+    border:2px solid lightgrey;
+    overflow: hidden;
+    float: left;
+}
+
+.languagepicker:hover {
+    height: 81px;
+}
+
+.languagepicker a{
+    text-decoration: none;
+    font-size:10px;
+    padding-top: 1px;
+    /*padding-right:20px;*/
+    color:#505050;
+}
+
+.languagepicker li {
+    display: block;
+
+    line-height: 30px;
+}
+
+.languagepicker li img {
+    margin-right: 5px;
+}
+.arrow{
+    padding-left:10px;
+}
+.but{
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    top:2720px;
+    right:120px;
+    z-index:2;
+}
+.but2{
+    transform: rotate(180deg);
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    top:2720px;
+    left:350px;
+    z-index:2;
+}
+
